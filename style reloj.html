@@ -1,0 +1,22 @@
+<input class="simple-time" type="time" name="hora" id="hora" placeholder="Hora">
+
+<style>
+.simple-time {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.simple-time::-webkit-datetime-edit-fields-wrapper {
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.simple-time::-webkit-datetime-edit-text {
+  font-weight: bold;
+}
+</style>
